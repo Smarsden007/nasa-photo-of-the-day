@@ -12,7 +12,14 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+p {
+  border-radius: 4px;
+  font-size: 22px;
+  padding: 20px;
+  background-color: #77878B;
+  border-radius: 15px;
+  max-width: 75%
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -29,8 +36,9 @@
 }
 
 img {
-  max-width: 65%;
+  max-width: 47%;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .nasa-photo-wrapper {

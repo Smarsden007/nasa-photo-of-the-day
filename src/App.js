@@ -1,8 +1,9 @@
 import React, { useState, useEffect, useLayoutEffect } from "react";
 import axios from 'axios';
 import NasaPhoto from "./Components/NasaPhoto";
-
 import "./App.css";
+
+
 
 const dummyData = {
 date: "2022-03-23",

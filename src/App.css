@@ -7,6 +7,17 @@
   pointer-events: none;
 }
 
+h3 {
+  font-size: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+  background-color: #040404;
+  color: white;
+  width: 100%;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -16,9 +27,11 @@ p {
   border-radius: 4px;
   font-size: 22px;
   padding: 20px;
-  background-color: #77878B;
-  border-radius: 15px;
-  max-width: 75%
+  background-color: #010101;
+  border-radius: 0px;
+  max-width: 75%;
+  box-shadow: 10px 10px 10px rgb(90, 85, 85);
+  color: white;  
 }
 .App-header {
   background-color: #282c34;
